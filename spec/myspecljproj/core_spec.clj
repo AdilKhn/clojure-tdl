@@ -7,3 +7,7 @@
     (should= 1 1))
   (it " one plus one is two"
    (should= 2 (+ 1 1))))
+
+(describe "some more math test"
+  (it "Four times 2 is 8"
+  (should= 8 (* 4 2))))
