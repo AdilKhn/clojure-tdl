@@ -17,3 +17,7 @@
   (it "gets the first element"
   (should= 9 (first [9 8 7 6])))
 )
+
+(describe "Strings"
+  (it "concats string"
+  (should= "I love clojure" (str "I" " love" " clojure"))))
