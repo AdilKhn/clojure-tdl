@@ -21,3 +21,9 @@
 (describe "Strings"
   (it "concats string"
   (should= "I love clojure" (str "I" " love" " clojure"))))
+
+(describe "Control flow"
+(it "if true the first condition is executed"
+  (should= "yes true" (if true "yes true" "no false")))
+(it "if false second condition is executed"
+  (should= "no false" (if false "yes true" "no false"))))
