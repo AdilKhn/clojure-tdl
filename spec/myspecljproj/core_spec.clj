@@ -3,9 +3,9 @@
             [myspecljproj.core :refer :all]))
 
 (describe "a test"
-  (it "FIXME, I fail."
+  (it "Basic speclj syntax."
     (should= 1 1))
-  (it " one plus one is two"
+  (it "one plus one is two"
    (should= 2 (+ 1 1))))
 
 (describe "some more math test"
@@ -23,7 +23,7 @@
   (should= "I love clojure" (str "I" " love" " clojure"))))
 
 (describe "Control flow"
-(it "if true the first condition is executed"
+(it "if true then first condition is executed"
   (should= "yes true" (if true "yes true" "no false")))
-(it "if false second condition is executed"
+(it "if false then second condition is executed"
   (should= "no false" (if false "yes true" "no false"))))
