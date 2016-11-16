@@ -27,3 +27,8 @@
   (should= "yes true" (if true "yes true" "no false")))
 (it "if false then second condition is executed"
   (should= "no false" (if false "yes true" "no false"))))
+
+(describe "Binding a value to a name"
+(it "use def to assign"
+ (def name "homer")
+ (should= "homer" name)))
