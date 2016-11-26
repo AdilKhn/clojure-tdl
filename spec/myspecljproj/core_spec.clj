@@ -32,3 +32,10 @@
 (it "use def to assign"
  (def name "homer")
  (should= "homer" name)))
+
+(describe "creating a function "
+ (it "a function that takes two values and adds them"
+ (defn addem [a,b]
+   (+ a b))
+ (= 5 (addem 2 3)))
+)
