@@ -37,5 +37,8 @@
  (it "a function that takes two values and adds them"
  (defn addem [a,b]
    (+ a b))
- (= 5 (addem 2 3)))
-)
+ (should= 5 (addem 2 3))) )
+
+(describe "calling external function"
+(it "call my-concat"
+  (should= "hey one" (my-concat "hey" "one"))))
