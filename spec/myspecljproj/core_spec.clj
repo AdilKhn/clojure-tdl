@@ -1,7 +1,6 @@
 (ns myspecljproj.core-spec
   (:require [speclj.core :refer :all]
-            [myspecljproj.core :refer :all]
-            [myspecljproj.data_structures :refer :all]))
+            [myspecljproj.core :refer :all]))
 
 (describe "a test"
   (it "Basic speclj syntax."
@@ -42,6 +41,4 @@
 
 (describe "calling external function"
 (it "call my-concat"
-  (should= "hey one" (my-concat "hey" "one")))
-(it "hello should work"
- (should= "hello yo" (hello "yo"))))
+  (should= "hey one" (my-concat "hey" "one"))))
