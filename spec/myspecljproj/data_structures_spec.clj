@@ -9,4 +9,10 @@
 
 (describe "Maps"
 (it "Use get to get a value for the key in map"
-          (should= 20 (get fruit-count :bananas))))
+          (should= 20 (get fruit-count :bananas)))
+
+(it "Can use indexed key to get the value"
+  (should= 3 (:pears fruit-count)))
+
+(it "gets a default value if key isnt found"
+  (should= 0 (get-fruit-count :mango))))

@@ -7,3 +7,6 @@
   :bananas 20
   :pears 3
   })
+
+(defn get-fruit-count [my-key]
+  (get fruit-count my-key 0))
