@@ -16,3 +16,13 @@
 
 (it "gets a default value if key isnt found"
   (should= 0 (get-fruit-count :mango))))
+
+(describe "Vectors"
+(it "gets the first element using index 0"
+  (should= "homer" (get my-vector 0)))
+(it "create a vector using the vector keyword"
+  (should= [ 1 2 ] (vector 1 2 ) ))
+(it "add additional elements to end of vector using conj"
+  (should= [1 2 3] (conj [1 2] 3))))
+
+(describe "Lists")

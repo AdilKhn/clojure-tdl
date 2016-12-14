@@ -30,8 +30,8 @@
 
 (describe "Binding a value to a name"
 (it "use def to assign"
- (def name "homer")
- (should= "homer" name)))
+ (def name2 "homer")
+ (should= "homer" name2)))
 
 (describe "creating a function "
  (it "a function that takes two values and adds them"

@@ -10,3 +10,5 @@
 
 (defn get-fruit-count [my-key]
   (get fruit-count my-key 0))
+
+(def my-vector ["homer", "bart", "lisa", "marge", "maggie"])
