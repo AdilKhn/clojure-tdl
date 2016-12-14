@@ -12,3 +12,5 @@
   (get fruit-count my-key 0))
 
 (def my-vector ["homer", "bart", "lisa", "marge", "maggie"])
+
+(def my-list '(1 2 "homer" "marge"))

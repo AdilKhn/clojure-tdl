@@ -25,4 +25,10 @@
 (it "add additional elements to end of vector using conj"
   (should= [1 2 3] (conj [1 2] 3))))
 
-(describe "Lists")
+(describe "Lists"
+(it "creates a list using the single quote"
+  (should= '(1 2 "homer" "marge") my-list))
+(it "gets an element using the nth function"
+  (should= "foo" (nth '("foo" "fee") 0)))
+(it "conj function adds elements to start of a list"
+  (should= '("a" "b" "c") (conj '("b" "c") "a"))))
