@@ -32,3 +32,11 @@
   (should= "foo" (nth '("foo" "fee") 0)))
 (it "conj function adds elements to start of a list"
   (should= '("a" "b" "c") (conj '("b" "c") "a"))))
+
+(describe "Sets"
+(it "Contains only unique elements"
+ (should= 5 (count my-set)))
+(it "Returns true if element is present in the set"
+ (should= true (contains? my-set "homer")))
+(it "Returns the element if it exists using get"
+ (should= "homer" (get my-set "homer"))))

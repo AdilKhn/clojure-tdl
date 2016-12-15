@@ -14,3 +14,5 @@
 (def my-vector ["homer", "bart", "lisa", "marge", "maggie"])
 
 (def my-list '(1 2 "homer" "marge"))
+
+(def my-set (hash-set "homer" "marge" 1 1 "homer" 2 "bart" "marge"))
