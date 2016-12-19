@@ -1,6 +1,5 @@
 (ns myspecljproj.core-spec
   (:require [speclj.core :refer :all]
-            [myspecljproj.core :refer :all]
             [myspecljproj.functions :refer :all]))
 
 (describe "simple function"
