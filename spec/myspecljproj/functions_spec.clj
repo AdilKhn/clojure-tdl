@@ -13,3 +13,10 @@
 (describe "func with 2 params"
    (it "uses two parameters"
   (should= "clo|jure" (two-param-func "clo" "jure"))))
+
+(describe "multi-arity function"
+  (it "multiplies by 2 with parameter"
+      (should= 10 (multi-arity 5)))
+  (it "adds to each other with two parameters" 
+      (should= 7 (multi-arity 5 2)))
+)
