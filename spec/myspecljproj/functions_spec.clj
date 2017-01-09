@@ -23,4 +23,6 @@
 
 (describe "default parameter using recursion"
           (it "simulates use of default parameter"
-              (should= "hello|bye" (default-parameter "hello" ))))
+              (should= "hello|bye" (default-parameter "hello" )))
+          (it "with both parameters default is not used" 
+              (should= "hi|there" (default-parameter "hi" "there"))))
