@@ -10,9 +10,16 @@
   "this is a two parameter function"
   ([a b] (str a "|" b)))
 
-(defn multi-arity 
+(defn multi-arity
   "this function is overloaded"
   ([ one-argument-to-multiply ]
    (* one-argument-to-multiply  2))
   ( [two-arguments get-added]
    (+ two-arguments get-added)))
+
+(defn default-parameter
+  "this is recursive" 
+  ([start end] 
+   (str start "|" end))
+  ([start]
+   (default-parameter start "bye")))
