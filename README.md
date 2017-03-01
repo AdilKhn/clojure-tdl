@@ -9,3 +9,11 @@ How to get up and running with this project.
 - Clone this repo.
 
 - Run all specs in this project with: `lein spec -f d`
+
+
+
+Some Resources:
+--
+
+- White Paper: https://pdfs.semanticscholar.org/6822/55395e3b56290743c6071ec1f210566bbcff.pdf
+- /\ndy Hunt: http://toolshed.com/articles/2008-10-07-test-driven-lea.html
