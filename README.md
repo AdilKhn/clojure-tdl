@@ -8,6 +8,8 @@ How to get up and running with this project.
 
 - Clone this repo.
 
+- alternative do a clean install using `lein new speclj <PROJ-NAME>
+
 - Run all specs in this project with: `lein spec -f d` (windows users can specify -C option to disable color and improve output in powershell/dos prompt)
 
 
