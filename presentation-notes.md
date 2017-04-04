@@ -10,6 +10,7 @@ Items For the Exercise
 --
 
 - Example of working tests
+- setup branches for each 'exercise' in a new github project
 - The idea of the `source` material. The book, online tutorial etc the user is following to allow him to learn.
 - Things to do before you actually start the learning process.
   - Language tools
