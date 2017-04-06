@@ -9,8 +9,11 @@
 - foo3 <!-- .element: class="fragment" data-fragment-index="3" -->
 
 
-
-
+Note: This is a note
+- Show me the source: <!-- .element: class="fragment" data-fragment-index="1" -->
+- <!-- .element: class="fragment" data-fragment-index="2" -->
 ```
-console.log('hi');
+(should= 2 (+ 2 2))
+(if (this)
+else(that))
 ```
