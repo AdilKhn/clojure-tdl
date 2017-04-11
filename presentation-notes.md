@@ -4,7 +4,8 @@ Items For Presentation
 - Notes on tdd advantages from here: http://programmer.97things.oreilly.com/wiki/index.php/The_Three_Laws_of_Test-Driven_Development
 - How do these relate to TDL, what advantages can we leverage.
 - What do I get out from this process that is hard to imagine when we first start?
-
+- TDD for real world apps, seems redundant at first, but as the code base grows we appreciate it. Is this similart to learning many languages over time?
+- Learn language features then build goto application like a checklist or url tracker etc.
 
 Items For the Exercise
 --
@@ -18,6 +19,7 @@ Items For the Exercise
   - Source / learning material and what you want to learn.
 - Progressively harder exercises 
 - Koans?
+
 
 
 Items for Prep
