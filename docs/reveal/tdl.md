@@ -21,7 +21,7 @@ Why?
 - Reduce dependency on debugging <!-- .element: class="fragment" data-fragment-index="4" -->
 
 |--|
-Some impediments to TDD
+Some Impediments to TDD
 - Its a 'Discipline' and takes some conscious effort.<!-- .element: class="fragment" data-fragment-index="0" -->
 - Not really taught in school.<!-- .element: class="fragment" data-fragment-index="1" -->
 - Difficult to start with on existing projects.<!-- .element: class="fragment" data-fragment-index="2" -->
@@ -42,8 +42,9 @@ BOTH!
   - A sandbox to learn TDD on a language you are familiar with.<!-- .element: class="fragment" data-fragment-index="5" -->
 
 |--|
-```
-(should= 2 (+ 2 2))
-(if (this)
-else(that))
-```
+Advantages
+- Practice Retrieval.
+- Spacing Effect /Spaced Presentation.
+  - Write tests on language features. Comeback to them at a later time to reinforce.
+- Develop patterns of learning over time.
+
