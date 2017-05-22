@@ -9,7 +9,7 @@ Pomiet
 
 We use TDD, right?
 
-![](./assets/tdd.jpeg)
+![](./assets/images/tdd.jpeg)
 
 <cite style="font-size: 20%">https://www.perforce.com/sites/default/files/images/tdd.png</cite>
 
@@ -32,9 +32,14 @@ Some impediments to TDD
 |--|
 Are we learing TDL or TDD?
 
-![](./assets/confused.jpg)<!-- .element: class="fragment" data-fragment-index="1" -->
+![](./assets/images/confused.jpg)<!-- .element: class="fragment" data-fragment-index="1" -->
+
+|--|
+BOTH!
 - If you are already doing TDD.<!-- .element: class="fragment" data-fragment-index="2" -->
-- Establish patterns of learning <!-- .element: class="fragment" data-fragment-index="3" -->
+  - Apply what you know to learn a new language.<!-- .element: class="fragment" data-fragment-index="3" -->
+- If you are new to TDD.<!-- .element: class="fragment" data-fragment-index="4" -->
+  - A sandbox to learn TDD on a language you are familiar with.<!-- .element: class="fragment" data-fragment-index="5" -->
 
 |--|
 ```
