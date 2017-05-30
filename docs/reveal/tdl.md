@@ -49,5 +49,17 @@ Advantages
 - Develop patterns of learning over time.<!-- .element: class="fragment" data-fragment-index="4" -->
 
 
+|--|
+Two Approaches
 
+![](./assets/images/node-repl.png)<!-- .element: class="fragment" data-fragment-index="1" -->
+
+```javascript
+test('I can use a map to square elements in an array', ()=>{
+  let array = [1,2,3,4,5];
+  squaredArray = array.map((x) => {return x*x})
+  expect(squaredArray).toEqual([1,4,9,16,25]);
+});
+```
+<!-- .element: class="fragment" data-fragment-index="2" -->
 
