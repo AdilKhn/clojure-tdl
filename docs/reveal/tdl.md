@@ -36,15 +36,18 @@ Are we learing TDL or TDD?
 
 |--|
 BOTH!
-- If you are already doing TDD.<!-- .element: class="fragment" data-fragment-index="2" -->
-  - Apply what you know to learn a new language.<!-- .element: class="fragment" data-fragment-index="3" -->
-- If you are new to TDD.<!-- .element: class="fragment" data-fragment-index="4" -->
-  - A sandbox to learn TDD on a language you are familiar with.<!-- .element: class="fragment" data-fragment-index="5" -->
+- If you are already doing TDD.<!-- .element: class="fragment" data-fragment-index="1" -->
+  - Apply what you know to learn a new language.<!-- .element: class="fragment" data-fragment-index="2" -->
+- If you are new to TDD.<!-- .element: class="fragment" data-fragment-index="3" -->
+  - A sandbox to learn TDD on a language you are familiar with.<!-- .element: class="fragment" data-fragment-index="4" -->
 
 |--|
 Advantages
-- Practice Retrieval.
-- Spacing Effect /Spaced Presentation.
-  - Write tests on language features. Comeback to them at a later time to reinforce.
-- Develop patterns of learning over time.
+- Practice Retrieval.<!-- .element: class="fragment" data-fragment-index="1" -->
+- Spacing Effect /Spaced Presentation.<!-- .element: class="fragment" data-fragment-index="2" -->
+  - Write tests on language features. Comeback to them at a later time to reinforce.<!-- .element: class="fragment" data-fragment-index="3" -->
+- Develop patterns of learning over time.<!-- .element: class="fragment" data-fragment-index="4" -->
+
+
+
 
