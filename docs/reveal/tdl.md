@@ -104,7 +104,6 @@ describe('destructuring', () => {
   describe('Object destructuring', () => {
     test('Objects can be destructured too', () =>{
       let {name, city} = {name: 'homer', city: 'springfield'}
-
       expect(name).toBe('homer');
       expect(city).toBe('springfield');
     });
