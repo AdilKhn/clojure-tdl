@@ -32,7 +32,7 @@ Pomiet
 <cite style="font-size: 20%">https://www.smashingmagazine.com/2013/02/designing-great-feedback-loops/</cite>
 |--|
 ## Some Impediments to TDD
-- Its a 'Discipline' and takes some conscious effort.<!-- .element: class="fragment" data-fragment-index="0" -->
+- It's a 'Discipline' and takes some conscious effort.<!-- .element: class="fragment" data-fragment-index="0" -->
 - Not really taught in school.<!-- .element: class="fragment" data-fragment-index="1" -->
 - Difficult to start with on existing projects.<!-- .element: class="fragment" data-fragment-index="2" -->
   - Jr devs start on existing projects (paradox 1)<!-- .element: class="fragment" data-fragment-index="3" -->
