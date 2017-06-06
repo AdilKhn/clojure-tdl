@@ -1,24 +1,28 @@
-## Test Driven Learning
+### Test Driven Learning
 
 Adil Khan
 
 Software Developer
 
-Pomiet
+Note: 
+- Intro
+- Background
+- What the talk is about
 |--|
 
-## We use TDD, right?
+### We use TDD, right?
 
-![](./assets/images/tdd.jpeg)
-
-<cite style="font-size: 20%">https://www.perforce.com/sites/default/files/images/tdd.png</cite>
+![](./assets/images/gandalf.jpg)<!-- .element: class="stretch" -->
 
 |--|
-## Why?
+### Why?
 - Only seconds away from working code <!-- .element: class="fragment" data-fragment-index="1" -->
 - Accurate documentation <!-- .element: class="fragment" data-fragment-index="2" -->
 - Emergent Design <!-- .element: class="fragment" data-fragment-index="3" -->
 - Reduce dependency on debugging <!-- .element: class="fragment" data-fragment-index="4" -->
+
+Note: Kotlin presentation by Bob Martin (Prime factors)
+
 
 
 > Tests are the Programmer's Stone, trasmuting fear into boredom
@@ -26,32 +30,32 @@ Pomiet
 <cite style="font-size: 40%"> *Kent Beck (Test Driven Development by Example)* </cite>
 
 
-## Feedback Loops
+### Feedback Loops
 ![](./assets/images/fb-loop.png)
 
 <cite style="font-size: 20%">https://www.smashingmagazine.com/2013/02/designing-great-feedback-loops/</cite>
 |--|
-## Some Impediments to TDD
+### Some Impediments to TDD
 - It's a 'Discipline' and takes some conscious effort.<!-- .element: class="fragment" data-fragment-index="0" -->
 - Not really taught in school.<!-- .element: class="fragment" data-fragment-index="1" -->
 - Difficult to start with on existing projects.<!-- .element: class="fragment" data-fragment-index="2" -->
-  - Jr devs start on existing projects (paradox 1)<!-- .element: class="fragment" data-fragment-index="3" -->
-  - Benefits of TDD accelerate with time. (paradox 2)<!-- .element: class="fragment" data-fragment-index="4" -->
+  - Jr devs start on existing projects.<!-- .element: class="fragment" data-fragment-index="3" -->
+  - Benefits of TDD accelerate with time.<!-- .element: class="fragment" data-fragment-index="4" -->
+Note: Paradox of jr devs and benefits accelerate with time.
+|--|
+### Are we learing TDL or TDD?
+
+![](./assets/images/confused.jpg)
 
 |--|
-## Are we learing TDL or TDD?
-
-![](./assets/images/confused.jpg)<!-- .element: class="fragment" data-fragment-index="1" -->
-
-|--|
-## BOTH!
+### BOTH!
 - If you are already doing TDD.<!-- .element: class="fragment" data-fragment-index="1" -->
   - Apply what you know to learn a new language.<!-- .element: class="fragment" data-fragment-index="2" -->
 - If you are new to TDD.<!-- .element: class="fragment" data-fragment-index="3" -->
   - A sandbox to learn TDD on a language you are familiar with.<!-- .element: class="fragment" data-fragment-index="4" -->
 
 |--|
-## Advantages
+### Advantages
 - Forces the exercising of Retrieval. <!-- .element: class="fragment" data-fragment-index="1" -->
 - Cramming vs Spacing, 2-2-2-6 Schedule.<!-- .element: class="fragment" data-fragment-index="2" -->
 - Write tests on language features. Comeback to them at a later time to reinforce.<!-- .element: class="fragment" data-fragment-index="3" -->
@@ -63,7 +67,7 @@ Pomiet
 - Manage Change.
 
 |--|
-## TDL Approach
+### TDL Approach
 
 ![](./assets/images/node-repl.png)<!-- .element: class="fragment" data-fragment-index="1" -->
 
@@ -85,7 +89,7 @@ test('I can use a map to square elements in an array', ()=>{
 
 
 
-## Larger Concepts
+### Exploring Concepts
 
 ```javascript
 describe('destructuring', () => {
@@ -122,14 +126,15 @@ describe('destructuring', () => {
   });
 });
 ``` 
-<!-- .element: style="font-size: 23%" -->
+<!-- .element: style="font-size: 32%" class="stretch" -->
 
 |--|
-## Other approaches
+### Other approaches
 1. Koans
 2. Katas
-3. See what works for you.
+3. Combine the best parts.
 
+Note: This is a note
 |--|
 # ? <!-- .element: style="font-size: 1500%" -->
 |--|

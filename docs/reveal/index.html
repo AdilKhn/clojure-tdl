@@ -1,55 +1,59 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Test Driven Learning</title>
+    <title>Test Driven Learning</title>
 
-		<link rel="stylesheet" href="assets/css/reveal.css">
-		<link rel="stylesheet" href="assets/css/theme/black.css">
+    <link rel="stylesheet" href="assets/css/reveal.css">
+    <link rel="stylesheet" href="assets/css/theme/black.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="assets/lib/css/zenburn.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="assets/lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-      <div class="slides">
-        <section data-markdown="tdl.md"  
-          data-separator="^\|--\|"  
-          data-separator-vertical="^\n\n"  
-          data-separator-notes="^Note:"  
-          data-charset="iso-8859-15"
-         data-background-color="#556889">
-        </section>
-      </div>
-		</div>
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+          </script>
+        </head>
+        <body>
+          <div class="reveal">
+            <div class="slides">
+              <section data-markdown="tdl.md"
+                data-separator="^\|--\|"
+                data-separator-vertical="^\n\n"
+                data-separator-notes="^Note:"
+                data-charset="iso-8859-15"
+                data-background-color="#556889">
+              </section>
+            </div>
+          </div>
 
-		<script src="assets/lib/js/head.min.js"></script>
-		<script src="assets/js/reveal.js"></script>
+      <script src="assets/lib/js/head.min.js"></script>
+      <script src="assets/js/reveal.js"></script>
 
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
+      <script>
+          // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+        history: true,
+        slideNumber: true,
+          margin: 0.0 ,
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'assets/plugin/markdown/marked.js' },
-					{ src: 'assets/plugin/markdown/markdown.js' },
-					{ src: 'assets/plugin/notes/notes.js', async: true },
-					{ src: 'assets/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+          { src: 'assets/plugin/markdown/marked.js' },
+          { src: 'assets/plugin/markdown/markdown.js' },
+          { src: 'assets/plugin/notes/notes.js', async: true },
+          { src: 'assets/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          // Zoom in and out with Alt+click
+          { src: 'plugin/zoom-js/zoom.js', async: true },
+        ]
+        });
+      </script>
+  </body>
 </html>
