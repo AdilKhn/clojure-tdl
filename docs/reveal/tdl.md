@@ -6,15 +6,15 @@ Software Developer
 
 http://www.softwarecraftsman.me
 Note: 
-- Intro
-- Background
-- What the talk is about
+- Intro.
+- Background.
+- What the talk is about.
 |--|
 ### Overview
-- TDD
-- TDL (http://www.simexusa.com/tdl/)
-- Examples
-- Exercises
+- TDD.
+- TDL. (http://www.simexusa.com/tdl/)
+- Examples.
+- Exercises.
 
 |--|
 
@@ -25,10 +25,10 @@ Note:
 Note: Poll the audience
 |--|
 ### Why?
-- Only seconds away from working code <!-- .element: class="fragment" data-fragment-index="1" -->
-- Accurate documentation <!-- .element: class="fragment" data-fragment-index="2" -->
-- Emergent Design <!-- .element: class="fragment" data-fragment-index="3" -->
-- Reduce dependency on debugging <!-- .element: class="fragment" data-fragment-index="4" -->
+- Only seconds away from working code. <!-- .element: class="fragment" data-fragment-index="1" -->
+- Accurate documentation. <!-- .element: class="fragment" data-fragment-index="2" -->
+- Emergent Design. <!-- .element: class="fragment" data-fragment-index="3" -->
+- Reduce dependency on debugging. <!-- .element: class="fragment" data-fragment-index="4" -->
 
 Note: Kotlin presentation by Bob Martin (Prime factors)
 
@@ -48,7 +48,7 @@ Note: 'The more tests I run the less stress I feel'
 - It's a 'Discipline' and takes some conscious effort.<!-- .element: class="fragment" data-fragment-index="0" -->
 - Not really taught in school.<!-- .element: class="fragment" data-fragment-index="1" -->
 - Difficult to start with on existing projects.<!-- .element: class="fragment" data-fragment-index="2" -->
-  - Jr devs start on existing projects.<!-- .element: class="fragment" data-fragment-index="3" -->
+  - We all start on existing projects.<!-- .element: class="fragment" data-fragment-index="3" -->
   - Benefits of TDD accelerate with time.<!-- .element: class="fragment" data-fragment-index="4" -->
 Note: Paradox of jr devs and benefits accelerate with time.
 |--|
@@ -69,7 +69,7 @@ Note: Paradox of jr devs and benefits accelerate with time.
 Note: New language, framework, algorithm etc.
 |--|
 ### TDL Advantages
-- Cramming vs Spacing.<!-- .element: class="fragment" data-fragment-index="2" -->
+- Cramming vs Spacing.  <cite class="fragment" data-fragment-index="2" style="font-size: 20%">http://toolshed.com/articles/2008-10-07-test-driven-lea.html</cite>
 - Write tests on language features. Comeback to them at a later time to reinforce.<!-- .element: class="fragment" data-fragment-index="3" -->
 - Develop patterns of learning over time.<!-- .element: class="fragment" data-fragment-index="4" -->
 Note: 2-2-2-6 Schedule to optimize recall/Retrieval.
@@ -143,7 +143,9 @@ describe('destructuring', () => {
     });
   });
 });
-``` 
+
+```
+
 <!-- .element: style="font-size: 32%" class="stretch" -->
 
 |--|
@@ -156,22 +158,26 @@ Note: Koans are written in a TDD way. Katas exist, but we can Test Drive them.
 |--|
 # ? <!-- .element: style="font-size: 1500%" -->
 |--|
-## Exercises
+### Exercises
 
-```
+```bash
 git clone https://github.com/AdilKhn/tdl-exercise
 
 ```
 
-```
+```bash
 git checkout ex1
+
 ```
 
 ```bash
 cd app
 ../lein spec -f d
+
 ```
+
 - Fix the failing test in ex1, then commit locally and checkout ex2. 
 - Work your way from ex1, ex2,...ex5.
 - [TL;DR] ex6 has all the solutions.
 - Each succsessive branch has the solutions to the previous branch.
+- Readme has link to this presentation.
