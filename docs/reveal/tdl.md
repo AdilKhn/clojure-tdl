@@ -4,6 +4,7 @@ Adil Khan
 
 Software Developer
 
+http://www.softwarecraftsman.me
 Note: 
 - Intro
 - Background
@@ -11,7 +12,7 @@ Note:
 |--|
 ### Overview
 - TDD
-- TDL
+- TDL (http://www.simexusa.com/tdl/)
 - Examples
 - Exercises
 
@@ -67,11 +68,12 @@ Note: Paradox of jr devs and benefits accelerate with time.
 
 Note: New language, framework, algorithm etc.
 |--|
-### Some Advantages
+### TDL Advantages
 - Cramming vs Spacing.<!-- .element: class="fragment" data-fragment-index="2" -->
 - Write tests on language features. Comeback to them at a later time to reinforce.<!-- .element: class="fragment" data-fragment-index="3" -->
 - Develop patterns of learning over time.<!-- .element: class="fragment" data-fragment-index="4" -->
-Note: 2-2-2-6 Schedule to optimize recall/Retrieval
+Note: 2-2-2-6 Schedule to optimize recall/Retrieval.
+- tests become a kind of flash cards.
 
 
 - Benefits of TDD become apparent after you do it and you have a suite of tests.
@@ -169,3 +171,7 @@ git checkout ex1
 cd app
 ../lein spec -f d
 ```
+- Fix the failing test in ex1, then commit locally and checkout ex2. 
+- Work your way from ex1, ex2,...ex5.
+- [TL;DR] ex6 has all the solutions.
+- Each succsessive branch has the solutions to the previous branch.
