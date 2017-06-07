@@ -21,6 +21,7 @@ Note:
 
 ![](./assets/images/gandalf.jpg)<!-- .element: class="stretch" -->
 
+Note: Poll the audience
 |--|
 ### Why?
 - Only seconds away from working code <!-- .element: class="fragment" data-fragment-index="1" -->
