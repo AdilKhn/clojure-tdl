@@ -9,6 +9,13 @@ Note:
 - Background
 - What the talk is about
 |--|
+### Overview
+- TDD
+- TDL
+- Examples
+- Exercises
+
+|--|
 
 ### We use TDD, right?
 
@@ -24,10 +31,10 @@ Note:
 Note: Kotlin presentation by Bob Martin (Prime factors)
 
 
-
 > Tests are the Programmer's Stone, trasmuting fear into boredom
 
 <cite style="font-size: 40%"> *Kent Beck (Test Driven Development by Example)* </cite>
+Note: 'The more tests I run the less stress I feel'
 
 
 ### Feedback Loops
@@ -49,23 +56,31 @@ Note: Paradox of jr devs and benefits accelerate with time.
 
 |--|
 ### BOTH!
-- If you are already doing TDD.<!-- .element: class="fragment" data-fragment-index="1" -->
-  - Apply what you know to learn a new language.<!-- .element: class="fragment" data-fragment-index="2" -->
-- If you are new to TDD.<!-- .element: class="fragment" data-fragment-index="3" -->
-  - A sandbox to learn TDD on a language you are familiar with.<!-- .element: class="fragment" data-fragment-index="4" -->
+- If we are already comfortable with TDD:<!-- .element: class="fragment" data-fragment-index="1" -->
+  - Apply what we know to learn something new.<!-- .element: class="fragment" data-fragment-index="2" -->
+- If we are new to TDD: <!-- .element: class="fragment" data-fragment-index="3" -->
 
+![](./assets/images/sandbox.png)<!-- .element: class="fragment" width="50%" height="50%"  data-fragment-index="4" -->
+
+<cite class="fragment" data-fragment-index="4" style="font-size: 20%">http://www.guidingtech.com/56168/protect-windows-10-pc-shade-sandbox/</cite>
+
+Note: New language, framework, algorithm etc.
 |--|
-### Advantages
-- Forces the exercising of Retrieval. <!-- .element: class="fragment" data-fragment-index="1" -->
-- Cramming vs Spacing, 2-2-2-6 Schedule.<!-- .element: class="fragment" data-fragment-index="2" -->
+### Some Advantages
+- Cramming vs Spacing.<!-- .element: class="fragment" data-fragment-index="2" -->
 - Write tests on language features. Comeback to them at a later time to reinforce.<!-- .element: class="fragment" data-fragment-index="3" -->
 - Develop patterns of learning over time.<!-- .element: class="fragment" data-fragment-index="4" -->
+Note: 2-2-2-6 Schedule to optimize recall/Retrieval
 
 
 - Benefits of TDD become apparent after you do it and you have a suite of tests.
 - Benefits of TDL become apparent after you do it and you have a suite of tests.
-- Manage Change.
+- Manage Change. <!-- .element: class="fragment" data-fragment-index="1" -->
 
+![](./assets/images/tsunami-hazard.jpg)<!-- .element: class="fragment" width="30%" height="30%"  data-fragment-index="1" -->
+
+<cite class="fragment" data-fragment-index="1" style="font-size: 20%">http://indosurflife.com/2013/12/why-you-cant-surf-a-tsunami/</cite>
+Note: Debate on whether we can actually surf a Tsunami?
 |--|
 ### TDL Approach
 
@@ -134,7 +149,7 @@ describe('destructuring', () => {
 2. Katas
 3. Combine the best parts.
 
-Note: This is a note
+Note: Koans are written in a TDD way. Katas exist, but we can Test Drive them.
 |--|
 # ? <!-- .element: style="font-size: 1500%" -->
 |--|
